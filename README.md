@@ -6,5 +6,7 @@ Copying a file from docker -
     docker cp <containerId>:/file/path/within/container /host/path/target
 
 #TODO: fix docker image for training
+
 #TODO: change file paths to env variables
+
 #TODO: change model storage and import to s3
