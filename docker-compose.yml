@@ -1,0 +1,15 @@
+version: '2'
+services:
+  web:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+     - "8000:8000"
+#    depends_on:
+#    - model
+  model:
+    build:
+      context: ./model
+      dockerfile: Dockerfile
